@@ -1,0 +1,43 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "한 학기",
+      "auto": true
+    }, {
+      "text": " 중 언제, 어떤",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "한 학기",
+      "auto": true
+    }, {
+      "text": " 중 언제, 어떤 학생에게",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "한 학기",
+      "auto": true
+    }, {
+      "text": " 중 언제, 어떤 학생",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "한 학기",
+      "auto": true
+    }, {
+      "text": " 중 언제, 어떤 학생에게 제공?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

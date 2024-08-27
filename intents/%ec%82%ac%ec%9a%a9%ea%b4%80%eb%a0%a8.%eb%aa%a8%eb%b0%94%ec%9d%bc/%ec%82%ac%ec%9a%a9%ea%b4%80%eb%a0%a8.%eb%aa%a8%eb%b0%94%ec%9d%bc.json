@@ -1,0 +1,10 @@
+{
+  "name": "03543873-cf64-4576-96a4-95ab2b338b25",
+  "displayName": "사용관련.모바일",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 4
+}

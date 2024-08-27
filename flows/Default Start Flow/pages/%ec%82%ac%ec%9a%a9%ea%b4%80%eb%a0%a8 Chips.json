@@ -1,0 +1,167 @@
+{
+  "name": "1d099abd-148b-4a36-a261-5478bcb70eb8",
+  "displayName": "사용관련 Chips",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "💜 사용중 궁금한점 문의 방법??"
+          }, {
+            "text": "🩷 모바일로도 사용 가능한가요?"
+          }, {
+            "text": "🧡 다운로드를 해야 사용할 수 있나요?"
+          }, {
+            "text": "💛 체험을 희망합니다."
+          }, {
+            "text": "💚 내부에서 검토할 자료가 있나요?"
+          }, {
+            "event": {
+              "name": "back"
+            },
+            "text": "\u003c FAQ로 돌아가기 \u003e",
+            "type": "button"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "사용관련.궁금한점",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "웹페이지 우측 하단의 말풍선(채널톡)을 클릭하시면,", "실시간 문의가 가능합니다.", "운영 시간(10:00~18:00) 외에는, ", "문의와 함께 휴대폰 번호를 남겨주시면 답변 완료 후 안내 문자가 발송됩니다." ],
+            "type": "description"
+          }, {
+            "icon": {
+              "color": "#FF0000",
+              "type": "chevron_right"
+            },
+            "link": "https://www.hakzzongpro.com/hzpro",
+            "text": "사이트 바로가기",
+            "type": "button"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "사용관련 Chips",
+    "name": "c17c2ae1-4c8c-439b-8daf-0f8a4b771afb"
+  }, {
+    "intent": "사용관련.모바일",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "학쫑프로는 모바일로는 제공되지 않습니다.", "데스크톱 혹은 태블릿 PC를 이용해 주세요. " ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "사용관련 Chips",
+    "name": "c8ce7d82-d119-46ca-a7b1-527c734aecfc"
+  }, {
+    "intent": "사용관련.다운로드",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "별도의 프로그램을 설치하지 않고", "웹에서 바로 사용하실 수 있습니다." ],
+            "type": "description"
+          }, {
+            "icon": {
+              "color": "#FF0000",
+              "type": "chevron_right"
+            },
+            "link": "https://www.hakzzongpro.com/hzpro",
+            "text": "사이트 바로가기",
+            "type": "button"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "사용관련 Chips",
+    "name": "68d2ff46-ada1-48e7-9585-8a7e12ba4bbb"
+  }, {
+    "intent": "사용관련.체험",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "웹페이지 우측 하단의 말풍선(채널톡)을 클릭하시면,", "실시간 문의가 가능합니다.", "운영 시간(10:00~18:00) 외에는, ", "문의와 함께 휴대폰 번호를 남겨주시면 답변 완료 후 안내 문자가 발송됩니다." ],
+            "type": "description"
+          }, {
+            "icon": {
+              "color": "#FF0000",
+              "type": "chevron_right"
+            },
+            "link": "https://www.hakzzongpro.com/hzpro",
+            "text": "사이트 바로가기",
+            "type": "button"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "사용관련 Chips",
+    "name": "12c901ec-fa1f-4633-bb17-fbe7a1dc141f"
+  }, {
+    "intent": "사용관련.검토",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "학쫑프로 서비스에 관해 설명되어 있는", "브로셔를 제공해 드립니다. ", "또한 온/오프라인 설명회가 진행될 때마다", "해당 영상이 유튜브에 업로드 되므로, ", "문의 주시면 링크를 공유해드리겠습니다.", "(추후 홈페이지 리뉴얼과 함께 해당 링크 또한 홈페이지에 업로드 될 예정입니다.)", "필요 시 학쫑프로 소개 자료를 메일로 보내드릴 수 있으며,", "마찬가지로 메일 주소와 함께 문의 주시면 ", "해당 계정으로 자료를 보내드리도록 하겠습니다.", "대면 혹은 비대면 미팅이 필요하신 경우,", "요청 주시면 일정을 조율하여 찾아뵙겠습니다. " ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "사용관련 Chips",
+    "name": "1d9a10de-f4b5-4268-bc06-8322d5621e5b"
+  }, {
+    "intent": "back.faq",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "35b78e12-6646-4b0f-9ea4-57f598955ecf"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "back.title",
+    "event": "back",
+    "triggerFulfillment": {
+    
+    },
+    "name": "da1927f7-d8aa-4a4a-8919-667280e35575"
+  } ]
+}

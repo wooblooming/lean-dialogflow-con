@@ -1,0 +1,16 @@
+{
+  "name": "841b280f-f41a-4a39-85d4-247cb9960dae",
+  "displayName": "사용관련.다운로드",
+  "parameters": [ {
+    "id": "location",
+    "entityType": "@sys.location"
+  }, {
+    "id": "person",
+    "entityType": "@sys.person"
+  }, {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

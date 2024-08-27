@@ -1,0 +1,122 @@
+{
+  "name": "3ec77d39-08d2-4e86-ab6c-9466f763c005",
+  "displayName": "학생관리관련",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "단독으로 결정을 하기가 어렵습니다. 내부에서 검토할 수 있는 자료가 있을까요?"
+          } ],
+          "title": "👉학생 관리 관련 FAQ👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "저희의 학생 관리에 대해서 질문을 해주시거나", "원하는 질문을 클릭 해주세요!😊" ],
+          "type": "description"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "💜 학생부, 학생부종합을 잘 몰라요.."
+          }, {
+            "text": "🩷 학생 생기부 관리에 소요 시간은?"
+          }, {
+            "text": "🧡 혼자 여러학생을 상담 관리가 될까? "
+          }, {
+            "text": "💛 한 학기 중 언제, 어떤 학생에게 제공?"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "학생관리.학생부종합",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "가능합니다. ", "", "가맹을 맺으시면 입학전형에 대한 정보부터 교과세특 지도법까지, ", "학생 상담에 필수적인 내용들을 제공해 드립니다. ", "", "평균 30분이면 학쫑프로 시스템을 익혀 손쉽게 학생의 생기부를 관리하실 수 있습니다." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "학생관리관련 Chips",
+    "name": "f9630857-9595-4469-b37d-427543becb47"
+  }, {
+    "intent": "학생관리.소요시간",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "학쫑프로는 최소 시간 투입으로 최대 효율의 생기부 관리를 가능하게 합니다. ", "", "학생 한 명당 등록 상담부터 주제 발급, 피드백까지 총 1시간 가량의 시간이 소요됩니다. ", "(등록 상담이 완료된 이후로는 주제 발급과 피드백만 진행하시면 되며, 약 30분이 소요됩니다.)", "", "생기부 관리로 인해 원장님들의 학원 운영이 불편해지거나,", "학생들의 내신/수능 공부 시간이 줄어들어서는 안 될 것입니다." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "학생관리관련 Chips",
+    "name": "3b372ee4-e5f9-42ee-87ea-a2d65bbb5556"
+  }, {
+    "intent": "학생관리.여러학생상담",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "가능합니다.", "", "선생님 한 분께서 30명 이상도 관리하실 수 있습니다.", "학생 관리에 필요한 기능 대부분이 자동화되어 있을 뿐만 아니라,", "학생의 과제 수행 단계에서도 AI가 필요한 양식과 정보를 제공하기 때문에,", "원장님의 품이 매우 적게 듭니다." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "학생관리관련 Chips",
+    "name": "eeb7b36a-0896-4809-91ad-87d88b80ec48"
+  }, {
+    "intent": "학생관리.학생제공",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "학생들이 과제 탐구 과제를 받는 시즌은 보통 중간고사/기말고사 직후, 새 학기 직전입니다. ", "", "해당 시즌에 집중적으로 학생들을 케어하시면 관리에 드는 시간을 최소화하실 수 있습니다.", "", "(학교 및 교과 선생님에 따라 일정이 다르므로, 개별 학생에게 미리 정보를 받아두시면 유동적으로 케어하실 수 있습니다.)" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "학생관리관련 Chips",
+    "name": "fa153438-0fac-4f99-a0d2-2f60e3558894"
+  } ]
+}

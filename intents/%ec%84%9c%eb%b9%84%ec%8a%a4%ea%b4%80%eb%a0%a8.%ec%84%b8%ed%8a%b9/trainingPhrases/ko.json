@@ -1,0 +1,21 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "세특을",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " 대신 ",
+      "auto": true
+    }, {
+      "text": "써 주는",
+      "parameterId": "person1",
+      "auto": true
+    }, {
+      "text": " 프로그램?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

@@ -1,0 +1,128 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://www.askedtech.com/api/kords/admin/product/image.jpg?type=org\u0026id=31942",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "actionLink": "https://jobshopper.notion.site/4a96d9f5f0314106ab8e86ed5af69629",
+            "image": {
+              "src": {
+                "rawUrl": "https://jobshopper.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd8792e9c-0cdf-493a-8d83-fabcbc62fe6a%2FHZ_%25EB%25A1%259C%25EA%25B3%25A0(%25ED%259D%25B0%25EB%25B0%25B0%25EA%25B2%25BD).jpg?table=block\u0026id=4a96d9f5-f031-4106-ab8e-86ed5af69629\u0026spaceId=265ff6ae-4a72-4622-a4bf-e59f4518d533\u0026width=250\u0026userId=\u0026cache=v2"
+              }
+            },
+            "subtitle": "GO to HAKZZONG Home",
+            "title": "HAKZZONG",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "icon": {
+              "color": "#FF0000",
+              "type": "chevron_right"
+            },
+            "link": "https://jobshopper.notion.site/4a96d9f5f0314106ab8e86ed5af69629",
+            "text": "학쫑프로 홈페이지",
+            "type": "button"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🔘성적만 올려주는 옆 학원🔘", "🔘대학까지 잘 보내주는 우리 학원🔘", "🟪학쫑프로와 함께 하세요🟪", "", "학쫑프로 사용 가이드 FAQ", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "1️⃣ 사용 관련"
+            }, {
+              "text": "2️⃣ 서비스 관련"
+            }, {
+              "text": "3️⃣ 학생 관리 관련"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "ae2b66b2-3e1c-4965-af3d-a10bbde5231a"
+  }, {
+    "intent": "redirect.사용관련",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "사용관련",
+    "name": "d3da74ca-99c2-472f-b43d-b01e742c4d64"
+  }, {
+    "intent": "redirect.서비스관련",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "서비스관련",
+    "name": "55cebef3-d591-4905-a56a-d2481d5f813a"
+  }, {
+    "intent": "redirect.학생관리관련",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "학생관리관련",
+    "name": "db584645-734d-4cc0-ad65-7a4d0892f5e9"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "마지막에 말씀을 잘 못 이해 한것 같아요.", "방금 하신 말씀을 잘 못 알아들었어요.", "죄송해요. 다시 들려 주실래요?", "제가 제대로 이해하고 있는지 잘 모르겠어요.", "제가 제대로 이해하지 못한것 같아요. 죄송해요.", "조금 헷갈리는데요." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "f348e0de-0e87-4fa1-a20b-72e7f8b09f33"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "마지막에 말씀을 잘 못 이해 한것 같아요.", "방금 하신 말씀을 잘 못 알아들었어요.", "죄송해요. 다시 들려 주실래요?", "제가 제대로 이해하고 있는지 잘 모르겠어요.", "제가 제대로 이해하지 못한것 같아요. 죄송해요.", "조금 헷갈리는데요." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "d03c79b7-dafe-4d3f-b4cc-42739e00a942"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "1c234286-2ec3-4265-8cee-1d1fc690cf7e",
+    "languageCode": "ko"
+  } ]
+}

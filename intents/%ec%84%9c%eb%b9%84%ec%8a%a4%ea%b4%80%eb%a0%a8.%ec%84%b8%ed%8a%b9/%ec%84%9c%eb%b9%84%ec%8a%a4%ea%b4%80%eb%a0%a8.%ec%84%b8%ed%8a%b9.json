@@ -1,0 +1,13 @@
+{
+  "name": "c94743fd-d1aa-4df1-b280-ff18762886c6",
+  "displayName": "서비스관련.세특",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  }, {
+    "id": "person1",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 1
+}

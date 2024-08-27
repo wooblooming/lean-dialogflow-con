@@ -1,0 +1,10 @@
+{
+  "name": "393f39fb-a153-4ab4-be8a-998ca859cf9d",
+  "displayName": "사용관련.궁금한점",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

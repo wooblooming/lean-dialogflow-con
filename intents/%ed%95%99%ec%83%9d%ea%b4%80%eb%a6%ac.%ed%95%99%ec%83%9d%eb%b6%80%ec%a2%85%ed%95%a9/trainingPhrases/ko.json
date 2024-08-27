@@ -1,0 +1,51 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "학생부",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "학생부종합을",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "잘 몰라",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "학생부",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "학생부종합",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "학"
+    }, {
+      "text": "생부",
+      "auto": true
+    }, {
+      "text": ", "
+    }, {
+      "text": "학생부종합",
+      "auto": true
+    }, {
+      "text": "을 잘 몰라요.."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

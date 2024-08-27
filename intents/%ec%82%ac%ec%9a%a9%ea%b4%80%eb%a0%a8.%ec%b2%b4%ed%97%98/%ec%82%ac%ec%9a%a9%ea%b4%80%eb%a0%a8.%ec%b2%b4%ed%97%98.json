@@ -1,0 +1,10 @@
+{
+  "name": "bad57e18-dd11-4125-9bb1-3c2c9c597f68",
+  "displayName": "사용관련.체험",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

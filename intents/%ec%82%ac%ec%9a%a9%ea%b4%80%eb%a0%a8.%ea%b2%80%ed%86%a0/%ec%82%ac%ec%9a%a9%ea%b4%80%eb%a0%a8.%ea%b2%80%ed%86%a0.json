@@ -1,0 +1,10 @@
+{
+  "name": "755752ed-50ef-4cde-b8f1-e38a3c9552df",
+  "displayName": "사용관련.검토",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

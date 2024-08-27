@@ -1,0 +1,58 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "다운로드를",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " 해야 사용할 ",
+      "auto": true
+    }, {
+      "text": "수",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": " 있나",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "다운로드",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": "를 해야 사용할 ",
+      "auto": true
+    }, {
+      "text": "수",
+      "parameterId": "date-time",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "다운로드를 해야",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "다운로드",
+      "parameterId": "location",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "다운로드를 해야 사용할 수 있나요?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

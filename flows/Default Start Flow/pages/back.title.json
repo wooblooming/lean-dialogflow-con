@@ -1,0 +1,49 @@
+{
+  "name": "3ba49d44-7a99-4ec1-b1c2-a5ed54b13eda",
+  "displayName": "back.title",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "1️⃣ 사용 관련"
+          }, {
+            "text": "2️⃣ 서비스 관련"
+          }, {
+            "text": "3️⃣ 학생 관리 관련"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "redirect.사용관련",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "사용관련",
+    "name": "b209fc97-89ee-40cb-a2fb-3c7a571f4c3b"
+  }, {
+    "intent": "redirect.서비스관련",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "서비스관련",
+    "name": "0532a8fc-b96b-4153-8d7d-cefe810a7833"
+  }, {
+    "intent": "redirect.학생관리관련",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "학생관리관련",
+    "name": "c44a7c82-b69e-46a5-8b3b-612b93135ae6"
+  } ]
+}
